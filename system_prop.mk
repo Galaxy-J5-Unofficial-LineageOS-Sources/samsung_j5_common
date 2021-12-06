@@ -4,10 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# BPF
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.kernel.ebpf.supported=false
-
 # OpenGLES
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196608
