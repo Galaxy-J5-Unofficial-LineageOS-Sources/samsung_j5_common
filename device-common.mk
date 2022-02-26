@@ -7,7 +7,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit from common
-$(call inherit-product, device/samsung/msm8916-common/msm8916.mk)
+$(call inherit-product, device/samsung/msm8916-common/lineage_msm8916.mk)
 
 # Inherit from vendor
 $(call inherit-product, vendor/samsung/j5-common/j5-common-vendor.mk)
